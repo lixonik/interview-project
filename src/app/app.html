@@ -1,0 +1,16 @@
+<header class="app-header">
+  <h1>Bug Hunt</h1>
+  <p class="hint">
+    В проекте три независимых страницы. На каждой есть один баг.
+    Найди их, объясни причину и предложи исправление.
+  </p>
+  <nav>
+    <a routerLink="/counter" routerLinkActive="active">1. Счётчик</a>
+    <a routerLink="/toggle" routerLinkActive="active">2. Переключатель</a>
+    <a routerLink="/greeting" routerLinkActive="active">3. Приветствие</a>
+  </nav>
+</header>
+
+<main>
+  <router-outlet />
+</main>

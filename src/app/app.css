@@ -1,0 +1,62 @@
+:host {
+  display: block;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  color: #1f2937;
+}
+
+.app-header h1 {
+  margin: 0 0 8px;
+}
+
+.app-header .hint {
+  color: #4b5563;
+  margin: 0 0 16px;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2563eb;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+nav a.active {
+  background: #2563eb;
+  color: white;
+}
+
+main {
+  padding: 8px 0;
+}
+
+button {
+  font: inherit;
+  padding: 6px 14px;
+  margin-right: 8px;
+  cursor: pointer;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #f3f4f6;
+}
+
+input {
+  font: inherit;
+  padding: 4px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
